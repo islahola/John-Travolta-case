@@ -14,7 +14,7 @@ const hitung = function(jam){
         return gaji+lembur;
     }
 }
-{/* fungsi untuk melihat status tabungan */}
+/* fungsi untuk melihat status tabungan */
 const tabungan = function(gaji,pengeluaran){
  if(gaji==pengeluaran){
    return `tidak bisa menabung`
