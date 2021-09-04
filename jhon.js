@@ -3,7 +3,7 @@ const hitung = function(jam){
     let gaji = 15000;
     let jamLembur = jam-40;
     let lembur = 1.5 *(15000*jamLembur);
-    if(jam==0){
+    if(jam<=0){
        return 0;
     }
     else if(jam<=40){
